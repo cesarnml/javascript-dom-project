@@ -1,6 +1,6 @@
-import path from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import ScriptExtHtmlWebpackPlugin from 'script-ext-html-webpack-plugin';
+import path from 'path'
+import HtmlWebpackPlugin from 'html-webpack-plugin'
+import ScriptExtHtmlWebpackPlugin from 'script-ext-html-webpack-plugin'
 
 export default {
   entry: path.join(__dirname, 'src/index.js'),
@@ -48,4 +48,4 @@ export default {
     inline: true,
     port: 4000,
   },
-};
+}
